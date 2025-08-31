@@ -449,6 +449,10 @@ body {
 }
 
 /*ABOUT SECTION*/
+.about-body {
+    min-height: 950px;
+}
+
 .about-container {
     display: flex;
     justify-content: space-evenly;
@@ -886,6 +890,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
