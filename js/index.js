@@ -78,11 +78,11 @@ function comparisonBoxAnimations() {
 
     if (!mediaMatcher.matches) {
         cards.forEach(card => card.classList.remove('hidden-card'));
-        console.log('yo')
         return;
     }
 
     cards.forEach(card => {
         observer.observe(card);
     });
+
 }
