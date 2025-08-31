@@ -454,6 +454,7 @@ body {
     justify-content: space-evenly;
     width: 100%;
     margin-bottom: 1em;
+    min-height: 925px;
 }
 
 .left-holder {
@@ -885,4 +886,5 @@ body {
     overflow-x: hidden;
   }
 }
+
 
