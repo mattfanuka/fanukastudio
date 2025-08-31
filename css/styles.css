@@ -203,6 +203,8 @@ body {
 }
 
 .fun-btn {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
     background: var(--lime);
     font-family: 'Lexend';
     color:#000000;
@@ -878,3 +880,9 @@ body {
         width: 90%;
     }
 }
+@supports (-webkit-touch-callout: none) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
