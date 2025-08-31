@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Let's Talk!</title>
+</head>
+<body class="contact-page">
+    <header>
+        <div class="header contact-head">
+            <div class="header-left">
+                <ul>
+                    <li><a id="homebtn" href="/index.html" class="head-btn">Home</a></li>
+                    <li><a id="aboutbtn" href="/pages/about.html" class="head-btn">About</a></li>
+                </ul>
+            </div>
+            <div class="header-center">
+                <img class="logo" src="/img/logo.png">
+            </div>
+            <div class="header-right">
+                <ul>
+                    <!-- <li><a href="#" class='head-btn'>Partners</a></li> -->
+                    <li><a href="#" class='head-btn contact selected'>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contact-container">
+            <div class="email-form" id="email-form">
+                <h1>Want to work together? <span class='highlight'>Get in touch!</span></h1>
+                <form target="_blank" action="https://formsubmit.co/129abb2653cdd5217fb095a2e2a219e3" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <input type="text" name="name" id="name" placeholder="Full Name*" required>
+                            <input type="email" name="email" id="email" placeholder="Email Address*" required>
+                            <input type="text" name="business" id="business-type" placeholder="What's your business called?">
+                            <input type="text" name="industry" id="industry" placeholder="What industry is your business in?">
+                        </div>
+                        <div class="email-body">
+                            <textarea placeholder="Your Message*" name="message" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <button class="fun-btn" type="submit">Send Email!</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Fanuka Studio</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <ul>
+                    <li><a id="homebtn" href="#" class="head-btn selected">Home</a></li>
+                    <li><a id="aboutbtn" href="/pages/about.html" class="head-btn">About</a></li>
+                </ul>
+            </div>
+            <div class="header-center">
+                <img class="logo" src="/img/logo.png">
+            </div>
+            <div class="header-right">
+                <ul>
+                    <!-- <li><a href="#" class='head-btn'>Partners</a></li> -->
+                    <li><a href="/pages/contact.html" class='head-btn contact'>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="page-title">
+                <h1>Website Design,</h1>
+                <h1>Minus the Headaches</h1>
+                <h3>Because your website shouldn't be your second job</h3>
+                <button onclick="pageRedirect('/pages/contact.html')" class="cta fun-btn">Let's Chat!</button>
+            </div>
+            <div class="page-flair">
+                <div class="flair1">
+                    <img src="/img/webicon1.png">
+                    
+                </div>
+                <div class="flair2">
+                    <img src="/img/webicon2.png">
+                </div>
+            </div>
+        </div>
+        <div class="offers-container">
+            <h1>Your one stop shop for any personal or business website</h1>
+            <div class="offers-box">
+                <div class="offer-card hidden-card">
+                    <div class="offer-image">
+                        <img class="img" src="/img/construction.png">
+                    </div>
+                    <div class="text-box">
+                        <h4>Construction and Design</h4>
+                        <p>From impressing your customers to ranking higher on SEO, you'll need a website that looks as good as you do.</p>
+                    </div>
+                </div>
+                <div class="offer-card hidden-card">
+                        <div class="offer-image">
+                            <img class="img" src="/img/webdesign.png">
+                        </div>
+                        <div class="text-box">
+                            <h4>Site Functionality & Uses</h4>
+                            <p>Need an eCommerce site to sell merch from? Maybe a calendar, or an email form? I'll hook it up for you!</p>
+                        </div>
+                </div>
+                <div class="offer-card hidden-card">
+                    <div class="offer-image">
+                        <img class="img" src="/img/serverrack.png">
+                    </div>
+                    <div class="text-box">
+                        <h4>Hosting & Maintenance</h4>
+                        <p>Never bother with servers or hosting services again! 24/7 maintenance of your site included for all projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>            
+        <div class="comparison-container">
+            <div class="comparison-header">
+                <h1>Performance Guaranteed</h1>
+            </div>
+            <div class="comparison-gif-holder">
+                <div class="comparison">
+                    <div class="text-card left">
+                        <h2><span class='highlight'>Buttery smooth performance</span> every time</h2>
+                        <p>Most website builders weigh your site down. I hand-code every project from scratch, giving your customers a lightning-fast, optimized experience.</p>
+                        <p>I build <span class='highlight'>websites that work for you</span>, not the other way around.</p>
+                    </div>
+                    <div class="gif right">
+                        <img src="/img/botaniq.gif">
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="comparison-description">
+            <div class="comparison-desc-head">
+                <h1>Coded by hand with love &lt;3</h1>
+            </div>
+            <button onclick="pageRedirect('/pages/contact.html')" class="fun-btn">Get a Free Website Audit!</button>
+        </div>
+        
+    </main>    
+    <script src="/js/index.js"></script>
+</body>
+</html>
