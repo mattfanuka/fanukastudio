@@ -313,8 +313,8 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    box-sizing: border-box; /* Ensures padding is included in height calculation */
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .text-box h4 {
@@ -454,12 +454,12 @@ body {
     justify-content: space-evenly;
     width: 100%;
     margin-bottom: 1em;
-    min-height: 925px;
 }
 
 .left-holder {
     width: 50%;
     position: relative;
+    min-height: 925px;
 }
 .right-holder {
     width: 50%;
@@ -886,5 +886,6 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
