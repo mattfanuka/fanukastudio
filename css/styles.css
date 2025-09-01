@@ -717,7 +717,7 @@ body {
     .about-container {
         display: grid;
         grid-template-rows: .25fr 1fr;
-        min-height: 1000px;
+        min-height: unset;
     }
     .left-holder {
         height: 25%;
@@ -895,6 +895,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
