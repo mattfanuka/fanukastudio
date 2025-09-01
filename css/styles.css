@@ -711,6 +711,9 @@ body {
     .page-title {
         width:550px;
     }
+    .about-body {
+    min-height: unset;
+    }
     .about-container {
         display: grid;
         grid-template-rows: .25fr 1fr;
@@ -890,6 +893,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
