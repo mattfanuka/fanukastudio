@@ -720,10 +720,10 @@ body {
         min-height: unset;
     }
     .left-holder {
-        height: 25%;
+        height: auto;
         width: auto;
         margin-top: 0.5em;
-        margin-bottom: 7.5em;
+        margin-bottom: 2rem;
         min-height: unset;
     }
     .right-holder {
@@ -895,6 +895,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
