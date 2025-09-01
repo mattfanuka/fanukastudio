@@ -712,7 +712,7 @@ body {
         width:550px;
     }
     .about-body {
-    min-height: unset;
+        min-height: unset;
     }
     .about-container {
         display: grid;
@@ -724,10 +724,12 @@ body {
         width: auto;
         margin-top: 0.5em;
         margin-bottom: 7.5em;
+        min-height: unset;
     }
     .right-holder {
         width: auto;
         margin-top: 1.5em;
+        min-height: unset;
     }
     .circle {
         left: 80%;
@@ -893,6 +895,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
