@@ -723,7 +723,7 @@ body {
         height: auto;
         width: auto;
         margin-top: 0.5em;
-        margin-bottom: 2rem;
+        margin-bottom: 10rem;
         min-height: unset;
     }
     .right-holder {
@@ -895,6 +895,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
