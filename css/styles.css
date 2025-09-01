@@ -723,7 +723,7 @@ body {
         height: auto;
         width: auto;
         margin-top: 0.5em;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
         min-height: unset;
     }
     .right-holder {
@@ -732,6 +732,7 @@ body {
         min-height: unset;
     }
     .circle {
+        position: relative;
         left: 80%;
         height: clamp(50px, 30vw, 130px);
         width: clamp(50px, 30vw, 130px);
@@ -895,6 +896,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 
 
 
